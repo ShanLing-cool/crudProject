@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("../../static/img/bgImg.jpg") no-repeat;
+    background-size: cover;
+}
+
+/*header*/
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    height: 100px;
+    line-height: 100px;
+}
+
+.search {
+    width: 1200px;
+    height: 100px;
+}
+
+.search_user {
+    margin: 0 auto;
+    height: 45px;
+    margin-left: 400px;
+}
+
+.search_text {
+    width: 300px;
+    height: 40px;
+    float: left;
+    margin-right: 50px;
+}
+
+.user_button {
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
+
+/*table*/
+
+.user_table {
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.user_table_main {
+    width: 1000px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+/*footer*/
+
+.footer {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.record {
+    width: 400px;
+    height: 40px;
+    margin-left: 200px;
+}
+
+.record_btn {
+    width: 500px;
+    height: 40px;
+    margin-left: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
