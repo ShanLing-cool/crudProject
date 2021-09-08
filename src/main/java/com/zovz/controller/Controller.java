@@ -50,8 +50,6 @@ public class Controller {
     public ModelAndView saveUser(HttpServletRequest request) {
         String username = request.getParameter("usernameIn");
         String password = request.getParameter("passwordIn");
-        System.out.println(username);
-        System.out.println(password);
         Boolean flag = userService.save(username, password);
         ModelAndView modelAndView = new ModelAndView();
         if (flag) {
